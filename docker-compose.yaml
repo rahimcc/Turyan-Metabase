@@ -18,7 +18,7 @@ services:
     restart: unless-stopped
 
   metabase:
-    image: metabase/metabase:latest
+    image: ghcr.io/rahimcc/turyan-metabase:sha-dc4c08a
     container_name: metabase
     depends_on:
       metabase-db:
